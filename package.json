@@ -1,0 +1,27 @@
+{
+  "name": "tdd-sample-for-typescript",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href='https://www.amazon.co.jp/dp/B077D2L69C/' target=\"_blank\">     <img src=\"./cover.jpg\" width=\"300\" alt=\"cover\" />   </a> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fanta335/TDD-sample-for-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fanta335/TDD-sample-for-typescript/issues"
+  },
+  "homepage": "https://github.com/Fanta335/TDD-sample-for-typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^28.0.0",
+    "jest": "^28.0.0",
+    "ts-jest": "^28.0.0",
+    "typescript": "^4.9.4"
+  }
+}
