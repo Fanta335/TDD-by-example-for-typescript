@@ -6,4 +6,9 @@ describe('Money test', () => {
     const product = five.times(2);
     expect(10).toBe(product.amount);
   });
+
+  it('test equality', () => {
+    expect(new Money.Dollar(5).equals(new Money.Dollar(5))).toBeTruthy();
+    expect(new Money.Dollar(5).equals(new Money.Dollar(4))).toBeFalsy();
+  });
 });
